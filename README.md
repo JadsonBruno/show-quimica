@@ -1,10 +1,12 @@
-# Show da Química
+# Show de Ciências
 
-Jogo no estilo Show do Milhão para estudar química orgânica para o ENEM (hidrocarbonetos e funções oxigenadas).
-São 251 perguntas com moléculas desenhadas em bastão, uma escada de 16 degraus com notas ilustrativas, degraus seguros, quatro ajudas e um modo "Revisar meus erros".
+Jogo no estilo Show do Milhão para estudar Ciências da Natureza para o ENEM.
 
-É um arquivo só (`index.html`), sem dependências: abre direto no navegador. Esta é a versão minificada, sem o gancho de testes.
+- **Química:** 251 perguntas de química orgânica (hidrocarbonetos e funções oxigenadas), com moléculas em bastão.
+- **Biologia:** 80 perguntas, distribuídas pelos temas que mais caem no ENEM (ecologia, genética, corpo humano, célula, doenças e vacinas, evolução, biotecnologia, plantas e animais).
+
+Há três modos: Só Química, Só Biologia e Mesclado (8 + 8). O jogo tem escada de 16 degraus com degraus seguros, quatro ajudas e um modo "Revisar meus erros" com filtro por matéria.
 
 As notas da escada servem só de motivação. Não são um cálculo de TRI.
 
-O arquivo é gerado por `node build-show.mjs` no projeto de origem (`anatomy-quimica`). As respostas são calculadas pelo modelo químico e conferidas por `check-show.mjs`.
+É um arquivo só (`index.html`), sem dependências: abre direto no navegador. Esta é a versão minificada.
